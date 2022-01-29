@@ -131,6 +131,19 @@ li{
    margin-top: -35px;
    z-index: 2;
 }
+.mind{
+    width: 250px;
+    height: 100px;
+    display: inline;
+    text-align: center;
+    flex-direction: row;
+    margin-top: 100px;
+   }
+.peace{
+    display: flex;
+    justify-content: space-evenly;
+}
+}
 /*.card2{
     background-color: aquamarine;
     width: 250px;
