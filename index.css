@@ -2,6 +2,7 @@
     padding:0;
     margin:0;
     box-sizing: border-box;
+    color: white;
 
 }
 /*h1{
@@ -57,4 +58,34 @@ li{
 .member{
     padding: 12px;
     background-color: blue;
+}
+.right{
+    text-align:center;
+    font-size: 150%;
+    padding-top: 8%;
+}
+.get{
+    border-radius: 10%;
+    background-color: blue;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between
+}
+.learn{
+    border-radius: 20%;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between
+}
+.more{
+    text-align:center;
+    font-size: 150%;
+    padding-top: 8%;
+    display: flex;
+    padding-right: 20px;
+
+
+
 }
