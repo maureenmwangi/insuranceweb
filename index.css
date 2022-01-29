@@ -185,7 +185,9 @@ li{
     display: flex;
     justify-content: space-evenly;
 }
-
+.blue{
+    background-color:  #252B42;
+}
 /*.card2{
     background-color: aquamarine;
     width: 250px;
