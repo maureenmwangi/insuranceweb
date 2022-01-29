@@ -149,6 +149,25 @@ li{
 }
 .problems{
     text-align: center;
+    padding: 10%;
+}
+.three{
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+.first{
+    width: 250px;
+    height: 100px;
+}
+.second{
+    width: 250px;
+    height: 100px;
+}
+.third{
+    width: 250px;
+    height: 100px;
 }
 /*.card2{
     background-color: aquamarine;
