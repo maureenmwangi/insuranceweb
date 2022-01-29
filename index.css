@@ -143,6 +143,12 @@ li{
     display: flex;
     justify-content: space-evenly;
 }
+.industry{
+    background-color: azure;
+    margin-top: 20%;
+}
+.problems{
+    text-align: center;
 }
 /*.card2{
     background-color: aquamarine;
@@ -159,3 +165,4 @@ li{
 .cards{
     display:i;
 }
+
