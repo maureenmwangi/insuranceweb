@@ -169,6 +169,12 @@ li{
     width: 250px;
     height: 100px;
 }
+.images{
+    display: inline;
+    justify-content: space-evenly;
+    padding-top: 20%;
+
+}
 /*.card2{
     background-color: aquamarine;
     width: 250px;
