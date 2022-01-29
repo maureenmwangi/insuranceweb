@@ -181,6 +181,11 @@ li{
     text-align: center;
     padding: 5%;
 }
+.columns{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 /*.card2{
     background-color: aquamarine;
     width: 250px;
