@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 *{
     padding:0;
     margin:0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 
 }
 .nav{
@@ -60,6 +62,12 @@
     display: flex;
     padding-right: 20px;
     justify-content: center;
+}
+.book{
+    height: 80px;
+}
+.footer{
+    height: 25px;
 }
 /*.card{
     display: flex;
@@ -295,9 +303,24 @@ border-radius: 5px;
 .list{
     display: flex;
     justify-content: space-evenly;
+    padding-bottom: 40px;
 }
 .list ul{
     list-style: none;
+}
+.made{
+    margin-left: 250px;
+}
+.facebook{
+    height: 30px;
+    float: right;
+}
+.checked{
+    color: orange;
+}
+.not-checked{
+  color: white;
+  border-radius:1px solid yellow ;
 }
 /*responsive layouts*/
 
