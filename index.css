@@ -156,26 +156,44 @@ ul.list li{
     display: flex;
     justify-content: space-evenly;
     
+    
 
 }
 .first{
-    width: 250px;
-    height: 100px;
-    border-radius: 10px,10px,10px,10px;
+    width: 25%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    text-align: center;
+}
+.first img{
+    height: 200px;
 }
 .second{
-    width: 250px;
-    height: 100px;
+    width: 25%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    text-align: center;
+}
+.second img{
+    height: 200px;
 }
 .third{
-    width: 250px;
-    height: 100px;
+    width: 25%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    text-align: center;
+}
+.third img{
+    height: 200px;
 }
 .images{
-    display: inline-block;
-    justify-content: space-between;
+    display: flex;
+    justify-content: space-evenly;
     padding-top: 25%;
 
+}
+.images img{
+    height: 50px;
 }
 .pricing{
     text-align: center;
