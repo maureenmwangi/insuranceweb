@@ -42,7 +42,7 @@ ul.list li{
     display: flex;
     justify-content: space-between;
 }
-li{
+.nav-item li{
     display: inline;
     margin-right: 80px;
     justify-content: space-around;
@@ -183,7 +183,55 @@ li{
 }
 .columns{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+}
+.column1{
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 30%;
+    text-align: center;
+}
+.column2{
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: #252B42 ;
+    color: white;
+    width: 30%;
+    text-align: center;
+    margin-top: -40px;
+}
+.column3{
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 30%;
+    text-align: center;
+}
+.column1 h2, .column1 h3,
+.column2 h2, .column2 h3,
+.column3 h2, .column3 h3 {
+    margin: 10px 0px;
+}
+.column1 p,
+.column2 p,
+.column3 p {
+    color: #23A6F0;
+}
+.standard{
+    list-style: none;
+    text-align: justify;
+    margin-left: 85px;
+}
+.standard li {
+    margin: 10px 0px;
+}
+.circle {
+    height: 15px;
+}
+.try {
+    background-color: #23A6F0;
+    color: white;
+    padding: 5px 40px;
+    border-radius: 5px;
 }
 .blue{
     background-color:  #252B42;
