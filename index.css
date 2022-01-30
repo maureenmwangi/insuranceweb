@@ -65,19 +65,18 @@ ul.list li{
     padding-top: 8%;
 }
 .get{
-    border-radius: 10%;
+    border-radius: 20px;
     background-color: #23A6F0;
     text-align: center;
     padding: 20px;
-    display: flex;
-    justify-content: space-between
+    margin: 0px 10px;
+  
 }
 .learn{
-    border-radius: 20%;
+    border-radius: 20px;
     text-align: center;
     padding: 20px;
-    display: flex;
-    justify-content: space-between
+    border: 1px solid white;
 }
 .more{
     text-align:center;
@@ -85,6 +84,7 @@ ul.list li{
     padding-top: 8%;
     display: flex;
     padding-right: 20px;
+    justify-content: center;
 }
 /*.card{
     display: flex;
@@ -282,10 +282,6 @@ ul.list li{
 }
 .float{
     height: 200px;
-
-}
-.footer{
-    display:flex;
 }
 .contact-cover{
     height: 500px;
@@ -306,6 +302,26 @@ ul.list li{
 }
 .form label, .form input, .form select {
     margin-bottom: 20px;
+}
+.consult{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 0px;
+}
+.contact button{
+background-color: #23A6F0;
+padding: 20px;
+color: white;
+border: 1px solid #23A6F0;
+border-radius: 5px;
+}
+.list{
+    display: flex;
+    justify-content: space-evenly;
+}
+.list ul{
+    list-style: none;
 }
 /*.card2{
     background-color: aquamarine;
