@@ -196,7 +196,9 @@ li{
     display:flex;
 
 }
-
+.footer{
+    display:flex;
+}
 /*.card2{
     background-color: aquamarine;
     width: 250px;
