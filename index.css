@@ -301,9 +301,26 @@ border-radius: 5px;
 }
 /*responsive layouts*/
 
-@media (max: width 1171px);{
-.three{
-    
+@media (max-width: 1171px) {
+    .three{
+        width: 98%;
+    }
+}
 
+@media (max-width: 939px) {
+    .nav{
+        display: flex;
+        flex-direction: columns;
+    }
 }
+
+@media (max-width:940px) {
+    .right {
+        position: absolute;
+        margin-top: 200px;
+        margin-left: 220px;
+    }
 }
+
+
+
