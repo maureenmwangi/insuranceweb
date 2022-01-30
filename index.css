@@ -272,6 +272,7 @@ ul.list li{
 }
 .blue{
     background-color:  #252B42;
+    padding-bottom: 100px;
 }
 .branches{
     text-align: left;
@@ -285,6 +286,26 @@ ul.list li{
 }
 .footer{
     display:flex;
+}
+.contact-cover{
+    height: 500px;
+
+}
+.booking{
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    z-index: 2;
+    justify-content: center;
+   margin-top: -174px;
+}
+.form{
+    padding-left: 10px;
+    background-color: white;
+    
+}
+.form label, .form input, .form select {
+    margin-bottom: 20px;
 }
 /*.card2{
     background-color: aquamarine;
