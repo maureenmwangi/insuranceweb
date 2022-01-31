@@ -11,7 +11,12 @@
     height: 100vh;
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./Insurance/hero-cover.3.png");
     background-size: cover;
-    position: relative;
+    background-position: center;
+   /* position: relative;*/
+    color: white;
+}
+
+.nav ul li a{
     color: white;
 }
 .top{
@@ -105,13 +110,24 @@
 }
 
 .card{
-   background-color: aquamarine;
+   background-color: white;
    width: 250px;
    display: inline;
    text-align: center;
    flex-direction: row;
    margin-top: -35px;
    z-index: 2;
+}
+.satisfactio{
+    background-color: #23A6F0;
+    width: 250px;
+    display: inline;
+    text-align: center;
+    flex-direction: row;
+    margin-top: -35px;
+    z-index: 2;
+
+
 }
 .mind{
     width: 250px;
@@ -139,15 +155,13 @@
 .three{
     display: flex;
     justify-content: space-evenly;
-    
-    
-
 }
 .first{
     width: 25%;
     border: 1px solid grey;
     border-radius: 5px;
     text-align: center;
+    height: 345px;
 }
 .first img{
     height: 200px;
@@ -157,6 +171,7 @@
     border: 1px solid grey;
     border-radius: 5px;
     text-align: center;
+    height: 345px;
 }
 .second img{
     height: 200px;
@@ -166,6 +181,7 @@
     border: 1px solid grey;
     border-radius: 5px;
     text-align: center;
+    height: 345px;
 }
 .third img{
     height: 200px;
@@ -174,6 +190,7 @@
     display: flex;
     justify-content: space-evenly;
     padding-top: 25%;
+    flex-wrap: wrap;
 
 }
 .images img{
@@ -210,6 +227,7 @@
     border: 1px solid grey;
     border-radius: 5px;
     width: 30%;
+    height: 500px;
     text-align: center;
 }
 .column2{
@@ -218,6 +236,7 @@
     background-color: #252B42 ;
     color: white;
     width: 30%;
+    height: 537px;
     text-align: center;
     margin-top: -40px;
 }
@@ -225,6 +244,7 @@
     border: 1px solid grey;
     border-radius: 5px;
     width: 30%;
+    height: 500px;
     text-align: center;
 }
 .column1 h2, .column1 h3,
@@ -244,6 +264,9 @@
 }
 .standard li {
     margin: 10px 0px;
+}
+.circle1{
+    height: 30px;
 }
 .circle {
     height: 15px;
@@ -319,7 +342,7 @@ border-radius: 5px;
     color: orange;
 }
 .not-checked{
-  color: white;
+  color: grey;
   border-radius:1px solid yellow ;
 }
 /*responsive layouts*/
@@ -329,12 +352,34 @@ border-radius: 5px;
         width: 98%;
     }
 }
-
+@media (max-width:1138px){
+    .columns{
+        flex-direction: column;
+    }
+    .column1{
+        width: 373px;
+        align-items: center;
+    }
+    .column2{
+        margin-top: 9px;
+        width: 373px;
+        align-items: center;
+    }
+    .column3{
+        width: 373px;
+        align-items: center;
+    }
+}
 @media (max-width:940px) {
     .right {
         position: absolute;
         margin-top: 200px;
         margin-left: 220px;
+    }
+}
+@media(max-width:1120px) {
+    .facebook{
+        width: 8%;
     }
 }
  @media (max-width:938px){
@@ -352,3 +397,69 @@ border-radius: 5px;
     margin: 10px -12px;
   }
 }
+@media(max-width:900px){
+.buttons{
+    flex-direction: column;
+ }
+}
+@media(max-width:822px){
+    .first img{
+     height: 190px;
+    }
+    .second img{
+        height: 190px;
+    }
+    .third img{
+        height: 190px;
+    }
+}
+@media(max-width:425px){
+    .nav{
+        background-position: center;
+    }
+    h1{
+        font-size: 15px;
+    }
+    .nav ul li a{
+        flex-direction: column;
+    }
+    .right{
+        text-align: left;
+        margin-left: 50px;
+    }
+    .right p p{
+        margin-left: 50px;
+    }
+    .more{
+        flex-direction: column;
+    }
+    .cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .peace{
+        flex-direction: column;
+        align-items: center;
+    }
+    .three{
+        flex-direction: column;
+        width: 775px;
+        margin: 75%;
+    }
+    .subscribe{
+        margin-left: 20px;
+        width: 94%;
+    }
+    .float{
+        height: 90px;
+    }
+    .branches p{
+        margin-left: 20px;
+        width: 94%;
+    }
+    .list{
+        flex-direction: column;
+    }
+    .made{
+    margin-left: 20px;
+    }
